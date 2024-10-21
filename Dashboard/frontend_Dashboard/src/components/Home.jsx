@@ -6,9 +6,9 @@ import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className="d-flex">
       <Sidebar />
-      <div style={{ marginLeft: "250px" }}>
+      <div className="main-content flex-grow-1">
         <Navbar />
         <Content />
         <Footer />
