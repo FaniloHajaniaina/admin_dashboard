@@ -1,0 +1,220 @@
+/* Style home */
+.home {
+    display: flex;              
+    flex-direction: column;       
+}
+.main-content {
+    display: flex;                
+    flex-direction: row;         
+    width: 100%;                  
+}
+
+/* Style sidebar */
+.sidebar {
+    width: 330px;
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+li:hover {
+    color: rgba(227,95,95,1);
+}
+i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+/* Style navbar */
+.custom-input {
+    height: 60px;
+    font-size: 16px; 
+    border-radius: 5px; 
+}
+
+/* Style content */
+.content {
+    flex: 2;                       
+    padding: 20px;   
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;   
+    border: none;         
+    margin-left: 2rem;
+}
+.chart {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 60vh;
+}
+.card1 {
+    width: 49%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;   
+    border: none; 
+    margin-top: 1.5rem;
+    background-color: rgba(95,39,96,1) !important;
+}
+.card2 {
+    width: 49%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;   
+    border: none; 
+    margin-top: 1.5rem;
+    background-color: rgba(227,95,95,1) !important;
+}
+
+/* Style contenu side */
+.contenu-side {
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;   
+    border: none;   
+    flex: 1;                       
+    padding: 20px; 
+    margin-left: 2rem;    
+    margin-right: 2rem;             
+}
+.card_side1 {
+    background: rgb(95,39,96);
+    background: linear-gradient(90deg, rgba(95,39,96,1) 0%, rgba(227,95,95,1) 100%);
+    border-radius: 10px; 
+    height: 35%;
+}
+.card_side {
+    border-radius: 10px;
+}
+/* Style du graphique circulaire */
+.pie-chart {
+    width: 100%;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Style Liste demande */
+.tab_content {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    height: 70vh;
+    margin-right: 2rem;
+    text-align: center;
+}
+.titre_tab {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden; /* Nécessaire pour que le `border-radius` fonctionne */
+}
+
+.admin-table th, .admin-table td {
+    padding: 12px;
+    text-align: left;
+    border: none;
+}
+
+.admin-table th {
+    background-color: rgb(167, 100, 168);
+    color: white;
+}
+
+
+.admin-table tr:first-child th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.admin-table tr:first-child th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.admin-table tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+.admin-table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.admin-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.admin-table tr:hover {
+    background-color: #ddd;
+}
+.btn_action{
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none; 
+}
+.valider_icon {
+    margin: 0 8px;
+    cursor: pointer;
+    color: #08aa15; 
+}
+.refuser_icon {
+    margin: 0 8px;
+    cursor: pointer;
+    color: #eb212b;
+}
+.message_icon {
+    margin: 0 8px;
+    cursor: pointer;
+    color: #ff8800;
+}
+.ticket_icon{
+    margin: 0 8px;
+    cursor: pointer;
+    color: #000;
+}
+.valider_icon:hover {
+    color: #72f87d; 
+}
+.refuser_icon:hover {
+    color: #f3626a;
+}
+.message_icon:hover {
+    color: #f7d40f; 
+}
+.tab_content .search_client {
+    width: 25% !important;
+}
+.btnAjout {
+    height: 5vh;
+    width: 15vh;
+    margin-left: 90%; 
+    background-color: #08aa15;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
